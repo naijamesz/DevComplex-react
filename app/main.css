@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 body {
-  font-family: "Public Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header-bar {
@@ -7,7 +9,7 @@ body {
 }
 
 .container--narrow {
-  max-width: 732px;
+  max-width: 700px;
 }
 
 .header-search-icon {
@@ -520,7 +522,7 @@ textarea.tall-textarea {
 
 .dots-loading::before,
 .dots-loading::after {
-  content: " ";
+  content: ' ';
 }
 
 .dots-loading div,

@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// React Router Pages
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-// Our Components
+// My Components
 import Header from './components/Header'
 import HomeGuest from './components/HomeGuest'
 import Footer from './components/Footer'
@@ -12,7 +11,6 @@ import Terms from './components/Terms'
 
 function Main() {
   return (
-    // Use React Router
     <BrowserRouter>
       <Header />
       <Routes>
@@ -29,10 +27,7 @@ const root = ReactDOM.createRoot(document.querySelector('#app'))
 root.render(<Main />)
 
 if (module.hot) {
-  module.hot.accept('./Main.js', function () {
-    console.log('Accepting the updated printMe module!')
-    printMe()
-  })
+  module.hot.accept()
 }
 
 // import React from 'react'
